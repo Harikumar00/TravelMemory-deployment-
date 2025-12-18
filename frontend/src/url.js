@@ -1,1 +1,6 @@
-export const baseUrl = process.env.REACT_APP_BACKEND_URL || "http://localhost:3001";
+export const baseUrl = "https://api.harikumar.site";
+
+export const TRIP_API = {
+  BASE: `${baseUrl}/trip`,
+};
+

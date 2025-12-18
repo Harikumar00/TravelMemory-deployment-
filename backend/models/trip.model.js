@@ -49,6 +49,6 @@ const tripSchema = mongoose.Schema({
   },
 });
 
+const Trip = mongoose.model('Tripdetails', tripSchema);  // FIXED ✔
+module.exports = { Trip };
 
-const Trip = mongoose.model('tripdetails', tripSchema)
-module.exports = { Trip }
